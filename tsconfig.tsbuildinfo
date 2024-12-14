@@ -1,1 +1,1 @@
-{"root":["./src/index.ts"],"version":"5.7.2"}
+{"root":["./src/config.ts","./src/index.ts","./src/override.ts","./src/prisma.ts","./src/project.ts","./src/task.ts","./src/user.ts","./src/middleware/auth.ts","./src/utils/generatetoken.ts"],"version":"5.7.2"}

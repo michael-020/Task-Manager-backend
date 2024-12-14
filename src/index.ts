@@ -10,3 +10,5 @@ app.use(express.json())
 app.use("/user", userRouter)
 app.use("/project", projectRouter)
 app.use("/task", taskRouter)
+
+app.listen(3000)
