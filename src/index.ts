@@ -1,7 +1,13 @@
+import dotenv from "dotenv"
 import express, { Express } from "express"
 import userRouter from "./user"
 import projectRouter from "./project"
 import taskRouter from "./task"
+import { JWT_SECRET } from "./config"
+
+dotenv.config()
+
+console.log(JWT_SECRET)
 
 const app: Express = express()
 
