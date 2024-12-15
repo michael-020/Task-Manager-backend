@@ -11,24 +11,28 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const taskRouter = (0, express_1.Router)();
+// Create a new task with title, description, status, and dueDate
 taskRouter.post("/tasks", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
     }
     catch (error) {
     }
 }));
+// Fetch details of a single task, including its project and assignee
 taskRouter.get("/tasks/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
     }
     catch (error) {
     }
 }));
+// Update the task’s title, description, status, or dueDate
 taskRouter.put("/tasks/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
     }
     catch (error) {
     }
 }));
+// Delete a task
 taskRouter.delete("/tasks/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
     }

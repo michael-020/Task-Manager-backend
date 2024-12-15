@@ -25,7 +25,7 @@ model Project {
   updatedAt   DateTime @updatedAt
   ownerId     Int
   owner       User     @relation(fields: [ownerId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  Task        Task[]
+  Task        Task[]    
 }
 
 model Task {

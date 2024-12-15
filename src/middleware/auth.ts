@@ -46,6 +46,9 @@ export async function authUser (req: Request, res: Response, next: NextFunction)
 
         next()
     } catch (error) {
-        
+        console.error("Error while authenticating", error)
+        res.status(500).json({
+            msg: "Error while authenticating"
+        })
     }
 }
